@@ -1,6 +1,6 @@
 ## OMDB FAVORITES MOVIE APP
 
-It was my first time writing an app in Sinatra/Ruby. I used react on the frontend, originally was going to just write it vanilla js but figured the state management and reuse of components would be helpful on this project. Uses webpack and babel to transpile it into a bundle. Wrote it as a singe-page application.
+It was my first time writing an app in Sinatra/Ruby. I used react on the frontend, originally was going to just write it in vanilla js but figured the state management and reuse of components would be helpful on this project. Uses webpack and babel to transpile it into a bundle. Wrote it as a singe-page application.
 
 Database is created on the fly.
 Gemfile is included.
