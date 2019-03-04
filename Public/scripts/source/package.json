@@ -1,0 +1,28 @@
+{
+  "name": "movie-app-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development --watch --progress",
+    "build": "webpack --mode production"
+  },
+  "author": "Robert Ozimek <robert@robertozimek.com> (http://robertozimek.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/runtime": "^7.3.4",
+    "babel-polyfill": "^6.26.0",
+    "lodash": "^4.17.11",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
+}

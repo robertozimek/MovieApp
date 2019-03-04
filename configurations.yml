@@ -1,0 +1,9 @@
+development:
+  OMDB_API_KEY: <%= ENV['OMDB_API_KEY'] %>
+  DATABASE_NAME: 'movies.db'
+test:
+  OMDB_API_KEY: <%= ENV['OMDB_API_KEY'] %>
+  DATABASE_NAME: 'movies.db'
+production:
+  OMDB_API_KEY: <%= ENV['OMDB_API_KEY'] %>
+  DATABASE_NAME: 'movies.db'
